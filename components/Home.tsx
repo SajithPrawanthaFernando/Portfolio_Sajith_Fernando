@@ -39,11 +39,12 @@ const Home = () => {
   useEffect(() => {
     const loadScrollReveal = async () => {
       const ScrollReveal = (await import("scrollreveal")).default;
-      ScrollReveal().reveal(imageRef.current, {
-        distance: "80px",
-        duration: 3000,
-        delay: 200,
-      });
+      if (imageRef.current) {
+        ScrollReveal().reveal(imageRef.current, {
+          distance: "80px",
+          duration: 3000,
+        });
+      }
     };
 
     if (imageRef.current) {
