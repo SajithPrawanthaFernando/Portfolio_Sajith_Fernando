@@ -79,7 +79,7 @@ export const projects = [
     des: "Streamline your printing operations and manage workflows efficiently with our comprehensive Printing Press Management System.",
     img: "./printing.svg",
     iconLists: [
-      "/re.svg",
+      "./re.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
@@ -93,10 +93,10 @@ export const projects = [
     des: "Keep your finances in check and track your spending effortlessly with our intuitive Expense Tracker.",
     img: "./exx.jpg",
     iconLists: [
-      "/re.svg",
+      "./re.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-      "/tail.svg",
+      "./tail.svg",
       "https://svgshare.com/i/rVA.svg",
     ],
     link: "https://github.com/SajithPrawanthaFernando/Expense_Tracker",
