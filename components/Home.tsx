@@ -83,7 +83,7 @@ const Home = () => {
         <div className="relative flex flex-col justify-center items-center w-full">
           <h3 className="text-4xl font-bold mb-2">Hi,</h3>
           <h3 className="text-4xl font-bold mb-8">
-            I'm Sajith <span className="text-blue-500">Fernando</span>
+            I&apos;m Sajith <span className="text-blue-500">Fernando</span>
           </h3>
           <h3 className="text-xl font-bold mb-4">
             I am into{" "}

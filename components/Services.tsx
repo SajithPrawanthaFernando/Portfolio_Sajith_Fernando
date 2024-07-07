@@ -20,7 +20,7 @@ const Services = () => {
           </h3>
           <p className="text-white text-sm">
             I create websites that look great on any device. Whether you need a
-            unique design or better search engine visibility, I'll help you
+            unique design or better search engine visibility, I&apos;ll help you
             create a website that attracts and keeps customers engaged.
           </p>
         </div>
