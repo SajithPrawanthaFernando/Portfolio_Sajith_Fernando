@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FormEvent } from "react";
 
 const Form = () => {
   const [name, setName] = useState("");
@@ -6,7 +6,7 @@ const Form = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
 
     let mailtoLink = `mailto:sajithprawanthafernando@gmail.com?subject=${encodeURIComponent(
