@@ -1,7 +1,7 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, FormEvent } from "react";
 import Typed from "typed.js";
-import profileImg from "./Assets/profile2.JPG";
+import profileImg from "../public/profile2.jpg";
 import { Spotlight } from "./ui/Spotlight";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -55,7 +55,7 @@ const Home = () => {
     setImageLoaded(true);
   };
 
-  const handleDownloadCV = (e) => {
+  const handleDownloadCV = (e: FormEvent) => {
     e.preventDefault();
     if (typeof window !== "undefined") {
       window.location.href =
